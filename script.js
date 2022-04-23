@@ -1,4 +1,4 @@
-var index = 0;
+;
 var texts = new Array();
 
 texts.push(
