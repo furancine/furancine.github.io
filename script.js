@@ -1,9 +1,7 @@
-;
+var index = 0;
 var texts = new Array();
 
-texts.push(
-  "francine is a student and musician turning art into tangible impact."
-);
+texts.push("francine is a student, artist, and technologist.");
 texts.push("francine is an enfp 6w7 lawful neutral leo stellium.");
 
 texts.push("francine is plotting cute girl world domination.");

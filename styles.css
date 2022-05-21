@@ -2,7 +2,6 @@
   display: grid;
   place-items: center;
   
-  background: lightblue;
   width: 500px;
   height: 500px;
   
@@ -11,13 +10,51 @@
 }
 
 .child {
-  // etc.
-  padding: 0.5rem;
-  border-radius: 10px;
-  border: 1px solid red;
-  background: lightpink;
+
   font-size: 2rem;}
 
 body {
   font-family: system-ui, serif;
+}
+
+.p1glow {
+  font-family: "HK Grotesk", sans-serif;
+  padding-top: 35px;
+  padding-left: 70px;
+  padding-right: 35px;
+  color: black;
+  text-align: left;
+  animation: glow 1s ease-in-out infinite alternate;
+  line-height: 1.8;
+  font-size: 30px;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fc94af,
+      0 0 40px #fc94af, 0 0 50px #fc94af, 0 0 60px #fc94af, 0 0 70px #fc94af;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #f25278, 0 0 40px #f25278,
+      0 0 50px #f25278, 0 0 60px #f25278, 0 0 70px #f25278, 0 0 80px #f25278;
+  }
+}
+
+a:link {
+  color: #f26b8a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f25278;
+  background-color: transparent;
+  text-decoration: underline;
 }
