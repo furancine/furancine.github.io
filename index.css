@@ -96,6 +96,16 @@ a:hover {
 
 }
 
+.italic{
+  transition:all .1s;
+}
+
+.italic:hover{
+  transform:skew(-12deg);
+  cursor:pointer;
+  text-shadow: -10px 10px 0px rgba(0, 0, 0, 1);
+}
+
 
 
 @-webkit-keyframes snowflakes-fall {
