@@ -97,7 +97,7 @@ a:hover {
 }
 
 .italic{
-  transition:all .1s;
+  transition:all .05s;
 }
 
 .italic:hover{
