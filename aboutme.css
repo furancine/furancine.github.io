@@ -60,15 +60,6 @@ li {
   float: center;
 }
 
-.regular {
-  font-size: 1.2rem;
-  text-align: justify;
-  padding-left: 30%;
-  padding-right: 30%;
-  line-height: 1.5em;
-  float: center;
-}
-
 .pcenter {
   text-align: center;
   
